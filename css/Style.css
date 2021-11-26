@@ -9,9 +9,13 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none;
+}
+
 body{
     font-family: helvetica;
-    max-width: 1400px;
+    max-width: 900px;
     align-items: center;
     justify-content: center;
     background-color: rgb(238, 255, 251);
@@ -85,6 +89,7 @@ img{
     flex-wrap: wrap;
     margin: 0 auto;
     margin-top: 100px;
+    
 }
 
 .Galery > div{
@@ -94,21 +99,83 @@ img{
 
 .Galery > div > h2, .Galery > div > h3{
     max-width: 250px;
-    text-align: center;
 }
 
 .Galery  div  h2{
-    margin-top: 15px;
+    text-align: center;
     font-family: 'Big Shoulders Text', cursive;
     text-transform: uppercase; 
-    letter-spacing: 0.2em;
+    letter-spacing: 0.4em;
     font-size: 18px;
     color: rgb(58, 67, 66);
+    margin-top: 8px;
 }
 
-.Galery  div  h3{
+.Galery  div h3{
     font-family: 'Quicksand', sans-serif;
-    font-size: 17px;
+    font-size: 12px;
     text-align: center;
     color: rgb(64, 75, 74);
+    margin-bottom: 10px;
+}
+
+.Galery div{
+    margin-top: 15px;
+}
+
+.Galery div:hover{
+    background-color: rgb(228, 254, 248);
+}
+
+#about{
+    margin-top: 75px;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-color: #003d52;
+    position: relative;
+    height: 500px;
+    color: rgb(238, 255, 251);
+}
+
+#about h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 85px;
+    left: 85px;
+}
+
+#about p{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    max-width: 48%;
+    position: absolute;
+    top: 220px;
+    left: 85px;
+}
+
+#contato h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #003d52;
+    font-size: 22px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+#contato iframe{
+    width: 900px;
+    margin-bottom: 40px;
+}   
+
+footer{
+    text-align: center;
+    display: block;
+    background-color: #001018;
+    color: #52829a;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 40px;
 }
